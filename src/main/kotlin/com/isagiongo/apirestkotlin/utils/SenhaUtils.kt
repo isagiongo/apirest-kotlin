@@ -4,6 +4,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 
 class SenhaUtils {
 
-    fun geraBcrypt(senha: String): String = BCryptPasswordEncoder().encode(senha)
+    fun gerarBcrypt(senha: String): String = BCryptPasswordEncoder().encode(senha)
 
 }
