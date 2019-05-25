@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05f04b7-7130-4a27-b32d-901cec63cab5" name="Default Changelist" comment="" />
+    <list default="true" id="f05f04b7-7130-4a27-b32d-901cec63cab5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/api-rest-kotlin.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/com/isagiongo/apirestkotlin/ApiRestKotlinApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/com/isagiongo/apirestkotlin/utils/SenhaUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Empresa.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding>
-                <element signature="e#47#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Funcionario.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,13 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
               <folding>
-                <element signature="e#50#203#0" expanded="true" />
+                <element signature="e#50#216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,13 +117,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#46#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+              <folding>
+                <element signature="e#46#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,11 +167,12 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/FuncionarioRepository.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/EmpresaRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/FuncionarioRepository.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/utils/SenhaUtils.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/utils/SenhaUtilsTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaService.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt" />
       </list>
     </option>
   </component>
@@ -215,6 +221,13 @@
               <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin.repositories" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com.isagiongo.apirestkotlin.services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -234,6 +247,13 @@
               <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin.services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -318,7 +338,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SenhaUtilsTest.deveGerarHashSenha">
+  <component name="RunManager" selected="Gradle.EmpresaServiceTest">
+    <configuration name="EmpresaServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.isagiongo.apirestkotlin.services.EmpresaServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpresaServiceTest.deveBuscarEmpresaPorCnpj" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.isagiongo.apirestkotlin.services.EmpresaServiceTest.deveBuscarEmpresaPorCnpj&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpresaServiceTest.devePersistirEmpresa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.isagiongo.apirestkotlin.services.EmpresaServiceTest.devePersistirEmpresa&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SenhaUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -359,24 +439,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="com.isagiongo.apirestkotlin.ApiRestKotlinApplicationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="api-rest-kotlin.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.ApiRestKotlinApplicationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EmpresaServiceTest" />
+        <item itemvalue="Gradle.EmpresaServiceTest.deveBuscarEmpresaPorCnpj" />
+        <item itemvalue="Gradle.EmpresaServiceTest.devePersistirEmpresa" />
         <item itemvalue="Gradle.SenhaUtilsTest.deveGerarHashSenha" />
         <item itemvalue="Gradle.SenhaUtilsTest" />
-        <item itemvalue="Kotlin.com.isagiongo.apirestkotlin.ApiRestKotlinApplicationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +469,24 @@
     <history-entry file="SenhaUtilsTest_deveGerarHashSenha - 2019.05.25 at 16h 48m 33s.xml">
       <configuration name="SenhaUtilsTest.deveGerarHashSenha" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="EmpresaServiceTest - 2019.05.25 at 18h 07m 04s.xml">
+      <configuration name="EmpresaServiceTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EmpresaServiceTest_devePersistirEmpresa - 2019.05.25 at 18h 09m 55s.xml">
+      <configuration name="EmpresaServiceTest.devePersistirEmpresa" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EmpresaServiceTest - 2019.05.25 at 18h 12m 39s.xml">
+      <configuration name="EmpresaServiceTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EmpresaServiceTest_devePersistirEmpresa - 2019.05.25 at 18h 13m 45s.xml">
+      <configuration name="EmpresaServiceTest.devePersistirEmpresa" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EmpresaServiceTest_deveBuscarEmpresaPorCnpj - 2019.05.25 at 18h 14m 20s.xml">
+      <configuration name="EmpresaServiceTest.deveBuscarEmpresaPorCnpj" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EmpresaServiceTest - 2019.05.25 at 18h 20m 23s.xml">
+      <configuration name="EmpresaServiceTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -409,7 +496,7 @@
       <window_info id="Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -417,7 +504,7 @@
       <window_info anchor="bottom" id="Build" weight="0.3061889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44136807" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44136807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,36 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/EmpresaRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#50#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/FuncionarioRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#50#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#50#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/utils/SenhaUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -548,6 +605,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/EmpresaRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#50#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/FuncionarioRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#50#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#46#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -555,12 +642,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+        <state relative-caret-position="408">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
-            <element signature="e#46#144#0" expanded="true" />
+            <element signature="e#46#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/LancamentoRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+          <folding>
+            <element signature="e#50#216#0" expanded="true" />
           </folding>
         </state>
       </provider>

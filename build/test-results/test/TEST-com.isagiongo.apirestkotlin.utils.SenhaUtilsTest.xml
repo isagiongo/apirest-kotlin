@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.isagiongo.apirestkotlin.utils.SenhaUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-25T19:48:32" hostname="isa-Lenovo-G50-80" time="0.227">
-  <properties/>
-  <testcase name="deveGerarHashSenha" classname="com.isagiongo.apirestkotlin.utils.SenhaUtilsTest" time="0.227"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
