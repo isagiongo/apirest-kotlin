@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f05f04b7-7130-4a27-b32d-901cec63cab5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,26 +27,81 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-rest-kotlin" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Funcionario.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="71" lean-forward="true" selection-start-line="59" selection-end-line="71" />
+            <state relative-caret-position="-8">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="-552">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoService.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="e#46#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+              <folding>
+                <element signature="e#46#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="e#46#763#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Lancamento.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state>
               <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
               <folding>
                 <element signature="e#46#121#0" expanded="true" />
@@ -70,11 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#46#191#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state>
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -91,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state>
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -134,6 +182,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoService.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceTest.kt" />
       </list>
     </option>
   </component>
@@ -152,6 +203,85 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin.documents" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.isagiongo.apirestkotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api-rest-kotlin" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api-rest-kotlin" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="api-rest-kotlin" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api-rest-kotlin" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api-rest-kotlin.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,117 +319,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="api-rest-kotlin" type="58d84e3e:PackageViewProjectNode" />
-              <item name="api-rest-kotlin" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="58d84e3e:PackageViewProjectNode" />
-              <item name="api-rest-kotlin" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="api-rest-kotlin.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.documents" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.enums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.repositories" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="api-rest-kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="api-rest-kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.isagiongo.apirestkotlin.utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,8 +338,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.isagiongo.apirestkotlin.services in api-rest-kotlin.test">
-    <configuration name="FuncionarioServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LancamentoServiceTest">
+    <configuration name="LancamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
@@ -323,13 +348,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.LancamentoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorCpf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LancamentoServiceTest.deveBuscarLancamentoPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
@@ -338,14 +363,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
-      <option name="METHOD_NAME" value="deveBuscarFuncionarioPorCpf" />
+      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.LancamentoServiceTest" />
+      <option name="METHOD_NAME" value="deveBuscarLancamentoPorId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LancamentoServiceTest.deveBuscarLancamentosPorFuncionarioId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
@@ -354,14 +379,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
-      <option name="METHOD_NAME" value="deveBuscarFuncionarioPorEmail" />
+      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.LancamentoServiceTest" />
+      <option name="METHOD_NAME" value="deveBuscarLancamentosPorFuncionarioId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioServiceTest.devePersistirFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LancamentoServiceTest.devePersistirLancamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
@@ -370,22 +395,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
-      <option name="METHOD_NAME" value="devePersistirFuncionario" />
+      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.LancamentoServiceTest" />
+      <option name="METHOD_NAME" value="devePersistirLancamento" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.isagiongo.apirestkotlin.services in api-rest-kotlin.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.isagiongo.apirestkotlin in api-rest-kotlin.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.isagiongo.apirestkotlin.services.*" />
+          <option name="PATTERN" value="com.isagiongo.apirestkotlin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
+      <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -393,11 +418,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.isagiongo.apirestkotlin.services in api-rest-kotlin.test" />
-        <item itemvalue="JUnit.FuncionarioServiceTest" />
-        <item itemvalue="JUnit.FuncionarioServiceTest.deveBuscarFuncionarioPorCpf" />
-        <item itemvalue="JUnit.FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" />
-        <item itemvalue="JUnit.FuncionarioServiceTest.devePersistirFuncionario" />
+        <item itemvalue="JUnit.LancamentoServiceTest" />
+        <item itemvalue="JUnit.LancamentoServiceTest.deveBuscarLancamentosPorFuncionarioId" />
+        <item itemvalue="JUnit.LancamentoServiceTest.devePersistirLancamento" />
+        <item itemvalue="JUnit.LancamentoServiceTest.deveBuscarLancamentoPorId" />
+        <item itemvalue="JUnit.com.isagiongo.apirestkotlin in api-rest-kotlin.test" />
       </list>
     </recent_temporary>
   </component>
@@ -412,51 +437,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 15m 58s.xml">
+    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 31m 26s.xml">
       <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 17m 43s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="com_isagiongo_apirestkotlin_services_in_api-rest-kotlin_test - 2019.05.26 at 11h 33m 00s.xml">
+      <configuration name="com.isagiongo.apirestkotlin.services in api-rest-kotlin.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 17m 58s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="com_isagiongo_apirestkotlin_in_api-rest-kotlin_test - 2019.05.26 at 14h 47m 36s.xml">
+      <configuration name="com.isagiongo.apirestkotlin in api-rest-kotlin.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 32m 24s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest_deveBuscarLancamentoPorId - 2019.05.26 at 16h 07m 06s.xml">
+      <configuration name="LancamentoServiceTest.deveBuscarLancamentoPorId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 32m 27s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest_deveBuscarLancamentoPorId - 2019.05.26 at 16h 07m 52s.xml">
+      <configuration name="LancamentoServiceTest.deveBuscarLancamentoPorId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 11m 45s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest_devePersistirLancamento - 2019.05.26 at 16h 12m 30s.xml">
+      <configuration name="LancamentoServiceTest.devePersistirLancamento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 12m 03s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest_deveBuscarLancamentosPorFuncionarioId - 2019.05.26 at 16h 17m 05s.xml">
+      <configuration name="LancamentoServiceTest.deveBuscarLancamentosPorFuncionarioId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 29m 04s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest - 2019.05.26 at 16h 18m 11s.xml">
+      <configuration name="LancamentoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 29m 43s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest - 2019.05.26 at 16h 28m 01s.xml">
+      <configuration name="LancamentoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioServiceTest_deveBuscarFuncionarioPorEmail - 2019.05.26 at 11h 30m 22s.xml">
-      <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" configurationId="JUnit" />
+    <history-entry file="LancamentoServiceTest - 2019.05.26 at 16h 31m 53s.xml">
+      <configuration name="LancamentoServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26287878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="SonarLint" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44136807" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44117647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,14 +490,16 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3061889" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.32954547" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -486,6 +513,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_rest_kotlin$com_isagiongo_apirestkotlin_in_api_rest_kotlin_test.ic" NAME="com.isagiongo.apirestkotlin in api-rest-kotlin.test Coverage Results" MODIFIED="1558892841707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.isagiongo.apirestkotlin.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/ApiRestKotlinApplication.kt">
@@ -540,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Lancamento.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -591,16 +616,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Funcionario.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="-8">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state>
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
             <element signature="e#46#121#0" expanded="true" />
@@ -608,41 +634,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state>
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#46#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="71" lean-forward="true" selection-start-line="59" selection-end-line="71" />
+        <state relative-caret-position="-552">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="e#46#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/LancamentoService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#46#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Lancamento.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/LancamentoServiceTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#763#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
