@@ -9,10 +9,12 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.BDDMockito
+import org.mockito.Mockito
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.mock.mockito.MockBean
 import org.springframework.test.context.junit4.SpringRunner
+import java.util.*
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
@@ -38,7 +40,10 @@ class FuncionarioServiceTest {
     @Before
     @Throws(Exception::class)
     fun setUp(){
-        BDDMockito.given(funcionarioRepository?.save(funcionario())).willReturn(funcionario())
+        BDDMockito.given(funcionarioRepository?.save(Mockito.any(Funcionario::class.java))).willReturn(funcionario())
+        BDDMockito.given(funcionarioRepository?.findById(ID)).willReturn(Optional.of(funcionario()))
+        BDDMockito.given(funcionarioRepository?.findByEmail(EMAIL)).willReturn(funcionario())
+        BDDMockito.given(funcionarioRepository?.findByCpf(CPF)).willReturn(funcionario())
     }
 
     @Test
@@ -47,6 +52,24 @@ class FuncionarioServiceTest {
         Assert.assertNotNull(funcionario)
     }
 
-    private fun funcionario(): Funcionario =
-            Funcionario(NOME, EMAIL, SENHA, CPF, PERFIL, EMPRESA, VALOR_HORA, HORAS_TRABALHO, HORAS_ALMOCO, ID)
+    @Test
+    fun deveBuscarFuncionarioPorEmail(){
+        val funcionario: Funcionario? = this.funcionarioService?.buscarPorEmail(EMAIL)
+        Assert.assertNotNull(funcionario)
+    }
+
+    @Test
+    fun deveBuscarFuncionarioPorCpf(){
+        val funcionario: Funcionario? = this.funcionarioService?.buscarPorCpf(CPF)
+        Assert.assertNotNull(funcionario)
+    }
+
+    @Test
+    fun deveBuscarFuncionarioPorId(){
+        val funcionario: Optional<Funcionario>? = this.funcionarioService?.buscarPorId(ID)
+        Assert.assertNotNull(funcionario)
+    }
+
+    private fun funcionario(): Funcionario = Funcionario(NOME, EMAIL, SENHA, CPF, PERFIL,
+            EMPRESA, VALOR_HORA, HORAS_TRABALHO, HORAS_ALMOCO, ID)
 }

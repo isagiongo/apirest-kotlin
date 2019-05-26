@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05f04b7-7130-4a27-b32d-901cec63cab5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="240">
+              <caret line="71" lean-forward="true" selection-start-line="59" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -59,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+            <state relative-caret-position="102">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="e#46#191#0" expanded="true" />
               </folding>
@@ -68,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="12">
+              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -110,9 +130,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/repositories/FuncionarioRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Funcionario.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt" />
       </list>
     </option>
   </component>
@@ -292,43 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FuncionarioServiceTest">
-    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.isagiongo.apirestkotlin.services.FuncionarioServiceTest.deveBuscarFuncionarioPorId&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmpresaServiceTest.devePersistirEmpresa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-rest-kotlin.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.isagiongo.apirestkotlin.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
-      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.EmpresaServiceTest" />
-      <option name="METHOD_NAME" value="devePersistirEmpresa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.isagiongo.apirestkotlin.services in api-rest-kotlin.test">
     <configuration name="FuncionarioServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
@@ -344,7 +329,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorCpf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-rest-kotlin.test" />
       <extension name="coverage">
         <pattern>
@@ -354,7 +339,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
       <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
-      <option name="METHOD_NAME" value="deveBuscarFuncionarioPorId" />
+      <option name="METHOD_NAME" value="deveBuscarFuncionarioPorCpf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-rest-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isagiongo.apirestkotlin.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
+      <option name="MAIN_CLASS_NAME" value="com.isagiongo.apirestkotlin.services.FuncionarioServiceTest" />
+      <option name="METHOD_NAME" value="deveBuscarFuncionarioPorEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,13 +377,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.isagiongo.apirestkotlin.services in api-rest-kotlin.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-rest-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isagiongo.apirestkotlin.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isagiongo.apirestkotlin.services" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.isagiongo.apirestkotlin.services in api-rest-kotlin.test" />
         <item itemvalue="JUnit.FuncionarioServiceTest" />
+        <item itemvalue="JUnit.FuncionarioServiceTest.deveBuscarFuncionarioPorCpf" />
+        <item itemvalue="JUnit.FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" />
         <item itemvalue="JUnit.FuncionarioServiceTest.devePersistirFuncionario" />
-        <item itemvalue="JUnit.FuncionarioServiceTest.deveBuscarFuncionarioPorId" />
-        <item itemvalue="JUnit.EmpresaServiceTest.devePersistirEmpresa" />
-        <item itemvalue="Gradle.FuncionarioServiceTest.deveBuscarFuncionarioPorId" />
       </list>
     </recent_temporary>
   </component>
@@ -397,21 +412,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 08h 32m 29s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 08h 34m 59s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 08h 50m 20s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FuncionarioServiceTest_deveBuscarFuncionarioPorId - 2019.05.26 at 08h 58m 58s.xml">
-      <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 08h 59m 56s.xml">
-      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 15m 58s.xml">
       <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -427,12 +427,27 @@
     <history-entry file="FuncionarioServiceTest - 2019.05.26 at 09h 32m 27s.xml">
       <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 11m 45s.xml">
+      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 12m 03s.xml">
+      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 29m 04s.xml">
+      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioServiceTest - 2019.05.26 at 11h 29m 43s.xml">
+      <configuration name="FuncionarioServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioServiceTest_deveBuscarFuncionarioPorEmail - 2019.05.26 at 11h 30m 22s.xml">
+      <configuration name="FuncionarioServiceTest.deveBuscarFuncionarioPorEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,8 +456,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44136807" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39739415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44136807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -464,13 +479,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt</url>
+          <url>file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="7" />
@@ -531,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Lancamento.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -589,27 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService3Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/documents/Funcionario.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#46#191#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,17 +608,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="12">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/EmpresaServiceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#46#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioService2Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/isagiongo/apirestkotlin/services/FuncionarioServiceTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="71" lean-forward="true" selection-start-line="59" selection-end-line="71" />
         </state>
       </provider>
     </entry>

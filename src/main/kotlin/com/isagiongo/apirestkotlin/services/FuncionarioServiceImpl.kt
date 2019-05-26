@@ -2,9 +2,11 @@ package com.isagiongo.apirestkotlin.services
 
 import com.isagiongo.apirestkotlin.documents.Funcionario
 import com.isagiongo.apirestkotlin.repositories.FuncionarioRepository
+import org.springframework.stereotype.Service
 import java.util.*
 
-abstract class FuncionarioServiceImpl (val funcionarioRepository: FuncionarioRepository) : FuncionarioService {
+@Service
+class FuncionarioServiceImpl (val funcionarioRepository: FuncionarioRepository) : FuncionarioService {
 
     override fun persistir(funcionario: Funcionario): Funcionario = funcionarioRepository.save(funcionario)
 
