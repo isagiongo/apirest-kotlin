@@ -16,7 +16,7 @@ class ApiRestKotlinApplication(val empresaRepository: EmpresaRepository, val fun
 		empresaRepository.deleteAll()
 		funcionarioRepository.deleteAll()
 
-		val empresa: Empresa = Empresa("Empresa LTDA", "35417492000108", "1")
+		val empresa: Empresa = Empresa("Empresa LTDA", "35417492000108")
 		empresaRepository.save(empresa)
 
 		val admin: Funcionario
