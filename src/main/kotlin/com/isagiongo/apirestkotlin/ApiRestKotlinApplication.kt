@@ -5,31 +5,36 @@ import com.isagiongo.apirestkotlin.documents.Funcionario
 import com.isagiongo.apirestkotlin.enums.PerfilEnum
 import com.isagiongo.apirestkotlin.repositories.EmpresaRepository
 import com.isagiongo.apirestkotlin.repositories.FuncionarioRepository
+import com.isagiongo.apirestkotlin.repositories.LancamentoRepository
 import com.isagiongo.apirestkotlin.utils.SenhaUtils
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ApiRestKotlinApplication(val empresaRepository: EmpresaRepository, val funcionarioRepository: FuncionarioRepository) : CommandLineRunner {
+class ApiRestKotlinApplication(val empresaRepository: EmpresaRepository,
+							   val funcionarioRepository: FuncionarioRepository,
+							   val lancamentoRepository: LancamentoRepository) : CommandLineRunner {
+
 	override fun run(vararg args: String?) {
 		empresaRepository.deleteAll()
 		funcionarioRepository.deleteAll()
+		lancamentoRepository.deleteAll()
 
-		val empresa: Empresa = Empresa("Empresa LTDA", "35417492000108")
-		empresaRepository.save(empresa)
+		var empresa: Empresa = Empresa("Empresa LTDA", "35417492000108")
+		empresa = empresaRepository.save(empresa)
 
-		val admin: Funcionario
+		var admin: Funcionario
 				= Funcionario("Isadora Giongo", "isa@gmail.com",
 				SenhaUtils().gerarBcrypt("123456"), "42357696001",
 				PerfilEnum.ROLE_ADMIN, empresa.id!!)
-		funcionarioRepository.save(admin)
+		admin = funcionarioRepository.save(admin)
 
-		val funcionario: Funcionario
+		var funcionario: Funcionario
 				= Funcionario("Veronica Torres", "veronica@gmail.com",
 				SenhaUtils().gerarBcrypt("654321"), "17347006023",
 				PerfilEnum.ROLE_USUARIO, empresa.id!!)
-		funcionarioRepository.save(funcionario)
+		funcionario = funcionarioRepository.save(funcionario)
 
 		println("Empresa ID: " + empresa.id)
 		println("Admin ID: " + admin.id)
